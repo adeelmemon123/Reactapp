@@ -1,0 +1,291 @@
+
+.login-screen {
+  display: flex;
+  height: 100vh;
+  
+}
+.heading2 {
+  color: green;
+  justify-content: flex-start;
+
+}
+.h {
+ margin-right: 48%;
+
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation ul li {
+  margin-bottom: 40px;
+}
+
+
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+ margin-left: 20px;
+ 
+}
+.right-side {
+  background-color: #fff  !important;
+
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  
+}
+.heading {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -15px; /* Adjust the value to control the gap size */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+  
+
+  .heading1 {
+    color: black;
+  }
+  .logout-helpdesk-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+   
+  }
+ 
+  .logout-helpdesk {
+    display: flex;
+  flex-direction: column;
+ 
+    
+  }
+  .logout-button {
+    font-weight: bold;
+    background-color:green;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    left: 2%;
+    width: 150px; /* Increase the width */
+    height: 50px;
+
+  }
+  .logout-button1 {
+    font-weight: normal;
+    margin-left: 35px;
+  }
+  .logout-button2 {
+    font-weight: normal;
+    margin-left: 28px;
+  }
+.bottom-section {
+  
+  padding: 20px;
+  border-radius: 25px;
+  margin: 10px; /* Add margin for spacing */
+}
+
+
+.bottom-section {
+  background-color: #fff  !important;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+
+}
+.right-side .second-row {
+  margin-top: -15px;
+  /* Adjust this value as needed */
+}
+
+.field1 {
+  color: gray;
+  font-size: 10px;
+}
+.fields-row {
+  display: flex;
+}
+.second-row {
+  display: flex;
+  gap: 10%;
+ 
+}
+.field {
+  
+  color: green;
+  font-weight: bold;
+  font-size: 15px; /* Include border in width calculation */
+}
+
+.field:not(:last-child) {
+ 
+  height: 40px;
+  border-right: 1px solid black;
+  padding-right: 30px;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  width: 80%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .left-side {
+    width: 20%; /* Increase the width for screens with a minimum width of 768px */
+  }
+  .right-side {
+    width: 70%; 
+    height: 20%;/* Increase the width for screens with a minimum width of 768px */
+  }
+  .bottom-section {
+    width: 70%; /* Increase the width for screens with a minimum width of 768px */
+  }
+  .main {
+    width: 100%; /* Increase the width for screens with a minimum width of 768px */
+  }
+  .fields-row {
+    gap:10%
+  }
+  .table-row {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .table-cell {
+    flex: 1;
+    background-color:white;
+    padding: 10px;
+    margin-right: 0;
+    border: 1px solid #999999;
+  }
+  .table-cell:first-child {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  
+  .table-cell:last-child {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .yellow-bg {
+    background-color: yellow !important;
+  }
+ 
+  .green-bg {
+    background-color: green !important;
+  }
+  .fields-row2 {
+    display: flex;
+  }
+  .field2 {
+    margin-right: 2%;
+    color: green;
+    font-weight: bold;
+    font-size: 15px; /* Include border in width calculation */
+  }
+  
+  .field2:not(:last-child) {
+    height: 40px;
+    border-right: 1px solid black;
+    padding-right: 30px;
+  }
+  .second-row1 {
+    display: flex;
+    gap: 10%;
+   
+  }
+  .field3 {
+    color: gray;
+    font-size: 10px;
+    margin-top: -5px;
+  }
+  .cards-section {
+    margin-top: 5%;
+
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5%;
+    height: 150px; /* Adjust width as needed */
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-description {
+    margin-bottom: 10px;
+  }
+  
+  .price-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .price-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  .card-price {
+    margin-bottom: 5px;
+  }
+  
+  .book-now-button {
+    margin-left: auto;
+    background-color: green;
+    border: 0;
+    height: 40px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+  }
+  
+ 
+  .chat-button {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    border: none;
+    background-color:green;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .chat-icon {
+    font-size: 40px;
+  }
+  
+}
